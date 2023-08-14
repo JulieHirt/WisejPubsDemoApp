@@ -225,6 +225,16 @@
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BasicDALWisejControls30\BasicDALWisejControls30.vbproj">
+      <Project>{8ea87f54-c622-4179-8ae8-8089fe333828}</Project>
+      <Name>BasicDALWisejControls30</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BasicDAL\BasicDAL.csproj">
+      <Project>{57d42120-5e60-0cf6-0edf-c08258322b54}</Project>
+      <Name>BasicDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
