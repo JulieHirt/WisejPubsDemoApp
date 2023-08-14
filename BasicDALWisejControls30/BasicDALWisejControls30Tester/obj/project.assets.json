@@ -1,0 +1,373 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Wisej-3/3.0.1-beta.12": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-3-Camera/3.0.3-dev": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.0.3-dev"
+        },
+        "compile": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        }
+      },
+      "BasicDALWisejControls30/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Wisej-3": "3.0.11",
+          "Wisej-3-Camera": "3.0.3-dev"
+        },
+        "compile": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "Wisej-3/3.0.1-beta.12": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-3-Camera/3.0.3-dev": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.0.3-dev"
+        },
+        "compile": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        }
+      },
+      "BasicDALWisejControls30/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Wisej-3": "3.0.11",
+          "Wisej-3-Camera": "3.0.3-dev"
+        },
+        "compile": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "Wisej-3/3.0.1-beta.12": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-3-Camera/3.0.3-dev": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.0.3-dev"
+        },
+        "compile": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        }
+      },
+      "BasicDALWisejControls30/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Wisej-3": "3.0.11",
+          "Wisej-3-Camera": "3.0.3-dev"
+        },
+        "compile": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Wisej-3/3.0.1-beta.12": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {}
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-3-Camera/3.0.3-dev": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.0.3-dev"
+        },
+        "compile": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Web.Ext.Camera.dll": {}
+        }
+      },
+      "BasicDALWisejControls30/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Wisej-3": "3.0.11",
+          "Wisej-3-Camera": "3.0.3-dev"
+        },
+        "compile": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicDALWisejControls30.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wisej-3/3.0.1-beta.12": {
+      "sha512": "M9t6/6Nyq23FaR6wADB8QFSBuundVAe4kCNA1hP2dOhb5bzPmXr775+bCejdoh0Umq9EuX5Fmz4W56rE1INelA==",
+      "type": "package",
+      "path": "wisej-3/3.0.1-beta.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA-3.0.txt",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Framework.dll",
+        "lib/net48/Wisej.Framework.xml",
+        "lib/net48/de/Wisej.Framework.resources.dll",
+        "lib/net48/es/Wisej.Framework.resources.dll",
+        "lib/net48/fr/Wisej.Framework.resources.dll",
+        "lib/net48/it/Wisej.Framework.resources.dll",
+        "lib/net48/pt/Wisej.Framework.resources.dll",
+        "lib/net48/tr/Wisej.Framework.resources.dll",
+        "lib/net6.0/Wisej.Framework.dll",
+        "lib/net6.0/Wisej.Framework.xml",
+        "lib/net6.0/cs/Wisej.Framework.resources.dll",
+        "lib/net6.0/de/Wisej.Framework.resources.dll",
+        "lib/net6.0/es/Wisej.Framework.resources.dll",
+        "lib/net6.0/fr/Wisej.Framework.resources.dll",
+        "lib/net6.0/it/Wisej.Framework.resources.dll",
+        "lib/net6.0/ja/Wisej.Framework.resources.dll",
+        "lib/net6.0/ko/Wisej.Framework.resources.dll",
+        "lib/net6.0/pl/Wisej.Framework.resources.dll",
+        "lib/net6.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net6.0/pt/Wisej.Framework.resources.dll",
+        "lib/net6.0/ru/Wisej.Framework.resources.dll",
+        "lib/net6.0/tr/Wisej.Framework.resources.dll",
+        "lib/net6.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net6.0/zh-Hant/Wisej.Framework.resources.dll",
+        "wisej-3.3.0.1-beta.12.nupkg.sha512",
+        "wisej-3.nuspec"
+      ]
+    },
+    "Wisej-3-Camera/3.0.3-dev": {
+      "sha512": "5pomhM+FDkmF/2fxgOJ6hibmga7HeJVZL0ngVzEeROpTLcp7p03OP0ixcHwDDInLGMAha1J3FUEcAvHZy4o2fg==",
+      "type": "package",
+      "path": "wisej-3-camera/3.0.3-dev",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Web.Ext.Camera.dll",
+        "lib/net48/Wisej.Web.Ext.Camera.xml",
+        "lib/net6.0/Wisej.Web.Ext.Camera.dll",
+        "lib/net6.0/Wisej.Web.Ext.Camera.xml",
+        "wisej-3-camera.3.0.3-dev.nupkg.sha512",
+        "wisej-3-camera.nuspec"
+      ]
+    },
+    "BasicDALWisejControls30/1.0.0": {
+      "type": "project",
+      "path": "../BasicDALWisejControls30.vbproj",
+      "msbuildProject": "../BasicDALWisejControls30.vbproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "BasicDALWisejControls30 >= 1.0.0",
+      "Wisej-3 >= 3.0.1-beta.12"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Gabriele\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Dev\\BasicDALWisejControls30\\BasicDALWisejControls30Tester\\BasicDALWisejControls30Tester.vbproj",
+      "projectName": "BasicDALWisejControls30Tester",
+      "projectPath": "C:\\Dev\\BasicDALWisejControls30\\BasicDALWisejControls30Tester\\BasicDALWisejControls30Tester.vbproj",
+      "packagesPath": "C:\\Users\\Gabriele\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\BasicDALWisejControls30\\BasicDALWisejControls30Tester\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Gabriele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Wisej-3.0.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\IceTeaGroup\\Wisej 3.0\\nuget\\": {},
+        "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "C:\\Dev\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj": {
+              "projectPath": "C:\\Dev\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Wisej-3": {
+            "target": "Package",
+            "version": "[3.0.1-beta.12, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Wisej-3 from 3.0.11 to 3.0.1-beta.12. Reference the package directly from the project to select a different version. \r\n BasicDALWisejControls30Tester -> BasicDALWisejControls30 -> Wisej-3 (>= 3.0.11) \r\n BasicDALWisejControls30Tester -> Wisej-3 (>= 3.0.1-beta.12)",
+      "libraryId": "Wisej-3",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

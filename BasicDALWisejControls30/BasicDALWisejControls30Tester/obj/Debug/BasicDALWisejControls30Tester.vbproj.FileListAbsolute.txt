@@ -1,0 +1,4 @@
+C:\Dev\BasicDALWisejControls30\BasicDALWisejControls30Tester\obj\Debug\BasicDALWisejControls30Tester.vbproj.AssemblyReference.cache
+C:\Dev\BasicDALWisejControls30\BasicDALWisejControls30Tester\obj\Debug\BasicDALWisejControlsTester.Window1.resources
+C:\Dev\BasicDALWisejControls30\BasicDALWisejControls30Tester\obj\Debug\BasicDALWisejControls30Tester.vbproj.GenerateResource.cache
+C:\Dev\BasicDALWisejControls30\BasicDALWisejControls30Tester\obj\Debug\BasicDALWisejControls30Tester.vbproj.CoreCompileInputs.cache

@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj": {}
+  },
+  "projects": {
+    "C:\\dev\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj",
+        "projectName": "BasicDALWisejControls",
+        "projectPath": "C:\\dev\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj",
+        "packagesPath": "C:\\Users\\Gabriele\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\BasicDALWisejControls30\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Gabriele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+                "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "CrystalReports.Engine": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.ReportSource": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.Shared": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.Web": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "Wisej-3": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
+            "Wisej-3-Camera": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DEV\\BasicDAL\\BasicDAL.csproj",
+        "projectName": "BasicDAL",
+        "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj",
+        "packagesPath": "C:\\Users\\Gabriele\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV\\BasicDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Gabriele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "IBM.Data.DB2.iSeries": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[21.10.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

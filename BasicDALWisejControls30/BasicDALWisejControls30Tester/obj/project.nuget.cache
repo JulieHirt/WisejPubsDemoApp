@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "+ks4dEgu48d9Lebrc0AomY0BTV6d/pkA5UQt4UWOFCriXe9fb+IyWViJ1z+v9F0TKEJJYNa575ZXaz/As8kb9A==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\BasicDALWisejControls30\\BasicDALWisejControls30Tester\\BasicDALWisejControls30Tester.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriele\\.nuget\\packages\\wisej-3\\3.0.1-beta.12\\wisej-3.3.0.1-beta.12.nupkg.sha512",
+    "C:\\Users\\Gabriele\\.nuget\\packages\\wisej-3-camera\\3.0.3-dev\\wisej-3-camera.3.0.3-dev.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Wisej-3 from 3.0.11 to 3.0.1-beta.12. Reference the package directly from the project to select a different version. \r\n BasicDALWisejControls30Tester -> BasicDALWisejControls30 -> Wisej-3 (>= 3.0.11) \r\n BasicDALWisejControls30Tester -> Wisej-3 (>= 3.0.1-beta.12)",
+      "libraryId": "Wisej-3",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}
